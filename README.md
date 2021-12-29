@@ -1,2 +1,2 @@
-This repository is only for SELF USE!
-Have a nice day.
+This repository is only for my PERSONAL USE!
+Please igore these files and I wish you a happy day.
