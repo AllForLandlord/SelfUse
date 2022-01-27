@@ -1,6 +1,6 @@
 #exhentai分流
-host,ehgt.org
-host,exhentai.org
-host-suffix,hath.network
-host,e-hentai.org
-host-suffix,lencr.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,lencr.org
