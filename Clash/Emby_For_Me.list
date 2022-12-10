@@ -1,0 +1,12 @@
+#Nebula EMBY
+IP-CIDR,159.69.62.180/32,no-resolve
+IP-CIDR,194.87.169.15/32,no-resolve
+DOMAIN,direct.nebula-emby.com
+
+#O9O清吧 Emby
+IP-CIDR,114.80.36.60/32,no-resolve
+
+#终点站 EMBY
+
+#卷毛鼠 EMBY
+
