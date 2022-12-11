@@ -3,8 +3,9 @@ IP-CIDR,159.69.62.180/32,no-resolve
 IP-CIDR,194.87.169.15/32,no-resolve
 DOMAIN,direct.nebula-emby.com
 
-#O9O清吧 Emby
+#O9O Emby
 IP-CIDR,114.80.36.60/32,no-resolve
+IP-CIDR,194.9.62.121/32,no-resolve
 
 #终点站 EMBY
 
