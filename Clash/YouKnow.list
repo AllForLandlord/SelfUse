@@ -1,13 +1,18 @@
-#Nebula EMBY
+#Nebula
 IP-CIDR,159.69.62.180/32,no-resolve
 IP-CIDR,194.87.169.15/32,no-resolve
 DOMAIN,direct.nebula-emby.com
 
-#O9O Emby
+#O9O
 IP-CIDR,114.80.36.60/32,no-resolve
 IP-CIDR,194.9.62.121/32,no-resolve
 
-#终点站 EMBY
+#Cc
+DOMAIN,cc.ccemby.tk
 
-#卷毛鼠 EMBY
+#终点站
+
+#卷毛鼠
+
+
 
