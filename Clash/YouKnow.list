@@ -7,14 +7,7 @@ DOMAIN,direct.nebula-emby.com
 IP-CIDR,194.9.62.134/32,no-resolve
 IP-CIDR,103.135.249.87/32,no-resolve
 IP-CIDR,37.128.247.203/32,no-resolve
-IP-CIDR,114.80.36.60/32,no-resolve
-IP-CIDR,14.215.163.57/32,no-resolve
-IP-CIDR,14.215.163.106/32,no-resolve
-IP-CIDR,111.22.142.145/32,no-resolve
-IP-CIDR,223.111.132.10/32,no-resolve
-IP-CIDR,49.7.208.101/32,no-resolve
-IP-CIDR,114.80.36.200/32,no-resolve
-IP-CIDR,49.7.208.101/32,no-resolve
+IP-CIDR,194.9.62.121/32,no-resolve
 
 
 #Cc
