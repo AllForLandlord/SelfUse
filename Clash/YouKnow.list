@@ -9,6 +9,18 @@ IP-CIDR,103.135.249.87/32,no-resolve
 IP-CIDR,37.128.247.203/32,no-resolve
 IP-CIDR,194.9.62.121/32,no-resolve
 
+IP-CIDR,194.87.169.15/32,no-resolve
+IP-CIDR,223.244.25.161/32,no-resolve
+IP-CIDR,49.7.228.201/32,no-resolve
+IP-CIDR,183.56.250.213/32,no-resolve
+IP-CIDR,222.217.95.177/32,no-resolve
+IP-CIDR,111.22.142.145/32,no-resolve
+IP-CIDR,49.7.208.101/32,no-resolve
+IP-CIDR,71.132.3.70/32,no-resolve
+IP-CIDR,49.7.203.82/32,no-resolve
+IP-CIDR,114.80.36.200/32,no-resolve
+
+
 
 #Cc
 DOMAIN-KEYWORD,ccemby
