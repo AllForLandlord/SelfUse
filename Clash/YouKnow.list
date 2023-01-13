@@ -25,7 +25,8 @@ DOMAIN-KEYWORD,ccemby
 #终点站
 
 #卷毛鼠
-DOMAIN,ha.jmsooo.com
-DOMAIN,cf.jmsooo.com
+DOMAIN-SUFFIX,jmsooo.com
 
-
+#MisakaF
+DOMAIN-SUFFIX,cf2.misakaf.org
+DOMAIN-SUFFIX,4837.misakaf.org
