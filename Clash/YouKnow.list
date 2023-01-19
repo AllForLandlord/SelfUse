@@ -5,11 +5,6 @@ DOMAIN-SUFFIX,nebula-emby.com
 DOMAIN-SUFFIX,the98.ltd
 
 
-#清吧
-IP-CIDR,194.9.62.134/32,no-resolve
-IP-CIDR,37.128.247.203/32,no-resolve
-
-
 #Cc
 DOMAIN-KEYWORD,ccemby
 
