@@ -1,7 +1,5 @@
 #一小撮
 DOMAIN-SUFFIX, pincong.rocks
-DOMAIN-SUFFIX, bbc.com
-DOMAIN-SUFFIX, bbci.co.uk
 DOMAIN-SUFFIX, dw.com
 DOMAIN-SUFFIX, rfi.fr
 DOMAIN-SUFFIX, rfa.org
@@ -15,6 +13,43 @@ DOMAIN-SUFFIX, foxnews.com
 DOMAIN-SUFFIX, chinese-future.org
 DOMAIN-SUFFIX, chinadigitaltimes.net
 DOMAIN-SUFFIX, gov.tw
+
+#BBC
+DOMAIN,aod-dash-uk-live.akamaized.net
+DOMAIN,aod-hls-uk-live.akamaized.net
+DOMAIN,aod-pod-uk-live.akamaized.net
+DOMAIN,as-dash-uk-live.akamaized.net
+DOMAIN,as-hls-uk-live.akamaized.net
+DOMAIN,ve-dash-uk-live.akamaized.net
+DOMAIN,ve-uhd-push-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-dash-ww-live.akamaized.net
+DOMAIN,vod-hls-uk-live.akamaized.net
+DOMAIN,vod-sub-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN,vod-thumb-ww-live.akamaized.net
+DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net
+DOMAIN,vs-hls-push-uk-live.akamaized.net
+DOMAIN,vs-hls-pushb-uk-live.akamaized.net
+DOMAIN-SUFFIX,bbc
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.in
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcchinese.com
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbcmedia.co.uk
+DOMAIN-SUFFIX,bbcpersian.com
+DOMAIN-SUFFIX,bbcverticals.com
+DOMAIN-SUFFIX,bidi.net.uk
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+
 #以下是轮媒
 DOMAIN-SUFFIX, minghui.org
 DOMAIN-SUFFIX, falundafa.org
