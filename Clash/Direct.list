@@ -3,7 +3,15 @@ DOMAIN-SUFFIX,nyafun.net
 DOMAIN-KEYWORD,ntdm
 DOMAIN-KEYWORD,dqsj
 DOMAIN-SUFFIX,xfani.com
+
+
+#Apple
+#通知
 DOMAIN-SUFFIX,push.apple.com
+#iCloud备份
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,icloud-content.com
+
 
 #LAN
 DOMAIN-SUFFIX,op.lan
