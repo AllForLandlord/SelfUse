@@ -9,3 +9,11 @@ DOMAIN-SUFFIX,nhentai.net
 
 #hanime1
 DOMAIN-SUFFIX,hanime1.me
+
+#Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
+
+#xvideos
+DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,xvideos.com
