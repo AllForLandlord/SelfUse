@@ -1,13 +1,13 @@
-#exhentai走正常倍率节点
-#DOMAIN-SUFFIX,e-hentai.org
-#DOMAIN-SUFFIX,ehwiki.org
-#DOMAIN-SUFFIX,ehgt.org
-#DOMAIN-SUFFIX,exhentai.org
-#DOMAIN-SUFFIX,hentaiverse.org
-#DOMAIN-SUFFIX,hath.network
+#exhentai
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,ehwiki.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hentaiverse.org
+DOMAIN-SUFFIX,hath.network
 
 #nhentai
-#DOMAIN-SUFFIX,nhentai.net
+DOMAIN-SUFFIX,nhentai.net
 
 #hanime1
 DOMAIN-SUFFIX,hanime1.me
