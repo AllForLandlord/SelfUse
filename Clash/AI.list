@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,ai.com
 
 ; Google authentication
-DOMAIN,cdn.auth0.com
+DOMAIN-SUFFIX,auth0.openai.com
 
 ; CDN & API
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
