@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,claude.ai
 # New Bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,bing.com.trafficmanager.net
 
 # Bard
 DOMAIN,bard.google.com
