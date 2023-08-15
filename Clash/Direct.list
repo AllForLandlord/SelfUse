@@ -12,6 +12,9 @@ DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,icloud-content.com
 
+#dogflight
+DOMAIN-SUFFIX,dogfight360.com
+
 
 #LAN
 DOMAIN-SUFFIX,local
