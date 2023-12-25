@@ -1,22 +1,23 @@
-#番剧网站
+# 番剧网站
 DOMAIN-SUFFIX,nyafun.net
 DOMAIN-KEYWORD,ntdm
 DOMAIN-KEYWORD,dqsj
 DOMAIN-SUFFIX,xfani.com
 
 
-#Apple
-#通知
+# Apple
+; 通知
 DOMAIN-SUFFIX,push.apple.com
-#iCloud备份
+; iCloud备份
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,icloud-content.com
 
-#dogflight
+
+# dogflight
 DOMAIN-SUFFIX,dogfight360.com
 
 
-#LAN
+# LAN
 DOMAIN-SUFFIX,local
 IP-CIDR,127.0.0.0/8,no-resolve
 IP-CIDR,172.16.0.0/12,no-resolve
