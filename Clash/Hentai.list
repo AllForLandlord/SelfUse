@@ -1,4 +1,4 @@
-#exhentai
+# Exhentai
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehwiki.org
 DOMAIN-SUFFIX,ehgt.org
@@ -6,24 +6,29 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hentaiverse.org
 DOMAIN-SUFFIX,hath.network
 
-#nhentai
+
+# Nhentai
 DOMAIN-SUFFIX,nhentai.net
 
-#hanime1
+
+# Hanime1
 DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,cdn1122.com
 
-#Pornhub
+
+# Pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 
-#xvideos
+
+# XVideos
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 
-#Others
+
+# Others
 DOMAIN-KEYWORD,porn
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,ahcdn.com
