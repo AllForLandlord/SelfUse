@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,jmsooo.com
 #MisakaF&Treediagram
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,123456.al
-#IP-CIDR,102.223.180.108/32,no-resolve
+IP-CIDR,102.223.180.108/32,no-resolve
 
 #纸片人
 #DOMAIN-SUFFIX,embyplus.org
