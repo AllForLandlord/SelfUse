@@ -1,5 +1,6 @@
 #二次元Emby
 DOMAIN-SUFFIX,nijigem.by
+DOMAIN-SUFFIX,workers.dev.cdn.cloudflare.net
 
 #Cc
 DOMAIN-KEYWORD,ccemby
