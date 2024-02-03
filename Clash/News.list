@@ -1,4 +1,4 @@
-#一小撮
+# 一小撮
 DOMAIN-SUFFIX, pincong.rocks
 DOMAIN-SUFFIX, dw.com
 DOMAIN-SUFFIX, rfi.fr
@@ -13,6 +13,7 @@ DOMAIN-SUFFIX, foxnews.com
 DOMAIN-SUFFIX, chinese-future.org
 DOMAIN-SUFFIX, chinadigitaltimes.net
 DOMAIN-SUFFIX, gov.tw
+
 
 #BBC
 DOMAIN,aod-dash-uk-live.akamaized.net
@@ -51,7 +52,8 @@ DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 
-#以下是轮媒
+
+# 轮媒
 DOMAIN-SUFFIX, minghui.org
 DOMAIN-SUFFIX, falundafa.org
 DOMAIN-SUFFIX, theepochtimes.com
