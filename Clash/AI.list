@@ -1,15 +1,15 @@
 # OpenAI
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,ai.com
-# Google authentication
+; Google authentication
 DOMAIN-SUFFIX,auth0.openai.com
-# CDN & API
+; CDN & API
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
-# Tracking
+; Tracking
 DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,openaicom.imgix.net
 
