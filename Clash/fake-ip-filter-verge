@@ -116,12 +116,12 @@ dns:
 # Golang
   - proxy.golang.org
 # STUN
-  - 'stun.*.*''
-  - 'stun.*.*.*''
-  - '+.stun.*.*''
-  - '+.stun.*.*.*''
-  - '+.stun.*.*.*.*''
-  - '+.stun.*.*.*.*.*''
+  - 'stun.*.*'
+  - 'stun.*.*.*'
+  - '+.stun.*.*'
+  - '+.stun.*.*.*'
+  - '+.stun.*.*.*.*'
+  - '+.stun.*.*.*.*.*'
 # Linksys Router
   - heartbeat.belkin.com
   - '*.linksys.com'
