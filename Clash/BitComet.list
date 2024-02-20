@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,cf.trackerslist.com
 IP-CIDR,38.242.234.0/32,no-resolve
 IP-CIDR,65.21.205.221/32,no-resolve
 IP-CIDR,65.108.85.89/32,no-resolve
+DOMAIN-SUFFIX,bitcomet.com
 
 
 # 长效种子
