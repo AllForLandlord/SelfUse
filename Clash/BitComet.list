@@ -1,1 +1,12 @@
+# tracker
 DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,cf.trackerslist.com
+
+# 登录彗星通行证 & 评论 & 截图等
+IP-CIDR,38.242.234.0,no-resolve
+IP-CIDR,65.21.205.221,no-resolve
+IP-CIDR,65.108.85.89,no-resolve
+
+
+# 长效种子
+IP-CIDR,173.212.243.82,no-resolve
