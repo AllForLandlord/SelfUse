@@ -20,6 +20,8 @@ dns:
   nameserver:
   - system
   fallback: []
+  nameserver-policy:
+    "+.bilivideo.com": 210.22.70.3
   fake-ip-filter:
 # LAN
   - '*.lan'
