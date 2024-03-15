@@ -1,0 +1,2 @@
+# BiliBili CDN
+  '+.bilivideo.com': '210.22.70.3'
