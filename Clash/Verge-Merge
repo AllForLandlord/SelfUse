@@ -18,10 +18,13 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
-  - system
+  - 223.5.5.5
+  - 223.6.6.6
+  - 119.29.29.29
+  - 119.28.28.28
   fallback: []
   nameserver-policy:
-    "+.bilivideo.com": 210.22.70.3
+    '+.bilivideo.com': '210.22.70.3'
   fake-ip-filter:
 # LAN
   - '*.lan'
