@@ -8,6 +8,9 @@ DOMAIN-SUFFIX,xfani.com
 # dogflight
 DOMAIN-SUFFIX,dogfight360.com
 
+#杀手服务器
+DOMAIN-SUFFIX,hitman.io
+
 
 # 保留地址
 DOMAIN-SUFFIX,local
