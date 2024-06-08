@@ -8,8 +8,11 @@ DOMAIN-SUFFIX,xfani.com
 # dogflight
 DOMAIN-SUFFIX,dogfight360.com
 
-#杀手服务器
+# HITMAN Server
 DOMAIN-SUFFIX,hitman.io
+
+# SEAGM
+DOMAIN-SUFFIX,seagm.com
 
 
 # 保留地址
