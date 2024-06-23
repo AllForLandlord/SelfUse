@@ -7,3 +7,6 @@ DOMAIN-SUFFIX,emby.misakaf.org
 
 # 火狐
 DOMAIN-SUFFIX,mozilla.org
+
+# 微软商店
+DOMAIN-SUFFIX,licensing.mp.microsoft.com
