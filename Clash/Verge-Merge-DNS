@@ -1,18 +1,3 @@
-# Merge Template for clash verge
-# The `Merge` format used to enhance profile
-
-prepend-rules:
-
-prepend-proxies:
-
-prepend-proxy-groups:
-
-append-rules:
-
-append-proxies:
-
-append-proxy-groups:
-
 dns:
   enable: true
   enhanced-mode: fake-ip
