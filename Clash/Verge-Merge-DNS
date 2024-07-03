@@ -1,4 +1,10 @@
+# Profile Enhancement Merge Template for Clash Verge
+
+profile:
+  store-selected: true
+
 dns:
+  use-system-hosts: false
   enable: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
