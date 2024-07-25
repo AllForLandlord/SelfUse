@@ -18,12 +18,14 @@ DOMAIN-SUFFIX,seagm.com
 # 保留地址
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localhost
-IP-CIDR,0.0.0.0/8,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,100.64.0.0/10,no-resolve
-IP-CIDR,127.0.0.0/8,no-resolve
-IP-CIDR,169.254.0.0/16,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,224.0.0.0/4,no-resolve
-IP-CIDR,240.0.0.0/4,no-resolve
+
+# IP保留地址交给内核排除处理，考虑到污染成保留地址时不能走直连的情况，所以单独不设置直连规则
+#IP-CIDR,0.0.0.0/8,no-resolve
+#IP-CIDR,10.0.0.0/8,no-resolve
+#IP-CIDR,100.64.0.0/10,no-resolve
+#IP-CIDR,127.0.0.0/8,no-resolve
+#IP-CIDR,169.254.0.0/16,no-resolve
+#IP-CIDR,172.16.0.0/12,no-resolve
+#IP-CIDR,192.168.0.0/16,no-resolve
+#IP-CIDR,224.0.0.0/4,no-resolve
+#IP-CIDR,240.0.0.0/4,no-resolve
