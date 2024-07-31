@@ -14,8 +14,8 @@ DOMAIN-SUFFIX,hitman.io
 # SEAGM
 DOMAIN-SUFFIX,seagm.com
 
-#CN Bing
-DOMAIN-SUFFIX,cn.bing.com
+#Bing（想要全球版Bing必须换DNS，光分流无效，所以我放弃了）
+DOMAIN-SUFFIX,bing.com
 
 
 # 保留地址
