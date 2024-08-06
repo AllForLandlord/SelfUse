@@ -17,6 +17,11 @@ DOMAIN-SUFFIX,seagm.com
 #CN Bing（注：想要全球版Bing搜索必须换DNS，光分流无效。但是不能把所有bing.com直连，因为Copilot需要有www.bing.com的代理）
 DOMAIN-SUFFIX,cn.bing.com
 
+# CMCC
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,chinamobile.com
+IP-CIDR,211.136.166.47,no-resolve
+IP-CIDR,117.132.188.24,no-resolve
 
 # 保留地址
 DOMAIN-SUFFIX,local
