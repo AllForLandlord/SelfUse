@@ -11,4 +11,4 @@ DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,jmsooo.com
 
 # Live Chat
-DOMAIN-SUFFIX,livechat.seagm.com
+#DOMAIN-SUFFIX,livechat.seagm.com
