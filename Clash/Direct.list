@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,chinamobile.com
 IP-CIDR,211.136.166.47/32,no-resolve
+IP-CIDR,211.136.166.55/32,no-resolve
 IP-CIDR,117.132.188.24/32,no-resolve
 
 # 保留地址
