@@ -1,11 +1,9 @@
 # 终点站
 DOMAIN-SUFFIX,emby.wtf
 
-
 # Cc
 DOMAIN-SUFFIX,cc.coemn.com
 DOMAIN-SUFFIX,carryz.net
-
 
 # MisakaF
 DOMAIN-SUFFIX,stream1.misakaf.org
@@ -13,10 +11,8 @@ DOMAIN-SUFFIX,stream2.misakaf.org
 DOMAIN-SUFFIX,stream3.misakaf.org
 DOMAIN-SUFFIX,stream4.misakaf.org
 
-
-# 纸片人
+# 纸片人后端
 DOMAIN-SUFFIX,9521732.xyz
 
-
-# PiliPili
-DOMAIN-SUFFIX,pilipiliultra.com
+# Pilipili后端
+IP-CIDR,8.153.66.71/32,no-resolve
