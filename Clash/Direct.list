@@ -17,7 +17,8 @@ DOMAIN-SUFFIX,hitman.io
 # CN Bing
 DOMAIN-SUFFIX,cn.bing.com
 
-# OneDrive
+# OneDrive & Microsoft 365
+DOMAIN-SUFFIX,ssw.live.com
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,docs.live.net
 
