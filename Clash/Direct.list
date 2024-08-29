@@ -14,8 +14,12 @@ DOMAIN-SUFFIX,hitman.io
 # SEAGM
 #DOMAIN-SUFFIX,seagm.com
 
-#CN Bing（注：想要全球版Bing搜索必须换DNS，光分流无效。但是不能把所有bing.com直连，因为Copilot需要有www.bing.com的代理）
+# CN Bing
 DOMAIN-SUFFIX,cn.bing.com
+
+# OneDrive
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
+DOMAIN-SUFFIX,docs.live.net
 
 # CMCC
 DOMAIN-SUFFIX,cmpassport.com
