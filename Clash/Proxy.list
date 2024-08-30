@@ -3,3 +3,6 @@ DOMAIN-SUFFIX,mozilla.org
 
 # Live Chat
 #DOMAIN-SUFFIX,livechat.seagm.com
+
+# OneDrive网页版
+DOMAIN-SUFFIX,onedrive.live.com
