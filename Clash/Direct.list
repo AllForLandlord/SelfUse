@@ -8,19 +8,30 @@ DOMAIN-SUFFIX,xfani.com
 # dogflight
 DOMAIN-SUFFIX,dogfight360.com
 
+
 # HITMAN Server
 DOMAIN-SUFFIX,hitman.io
+
 
 # SEAGM
 #DOMAIN-SUFFIX,seagm.com
 
+
 # CN Bing
 DOMAIN-SUFFIX,cn.bing.com
 
-# OneDrive & Microsoft 365
+
+# OneDrive & Microsoft 365补充
 DOMAIN-SUFFIX,ssw.live.com
+DOMAIN-SUFFIX,officeapps.live.com
+
+;移动版OneDrive
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,docs.live.net
+
+;网页版OneDrive
+DOMAIN-SUFFIX,fs.microsoft.com
+
 
 # CMCC
 DOMAIN-SUFFIX,cmpassport.com
@@ -28,6 +39,7 @@ DOMAIN-SUFFIX,chinamobile.com
 IP-CIDR,211.136.166.47/32,no-resolve
 IP-CIDR,211.136.166.55/32,no-resolve
 IP-CIDR,117.132.188.24/32,no-resolve
+
 
 # 保留地址
 DOMAIN-SUFFIX,local
