@@ -17,5 +17,5 @@ DOMAIN-SUFFIX,stream4.misakaf.org
 # 纸片人后端
 DOMAIN-SUFFIX,9521732.xyz
 
-# Pilipili后端
-IP-CIDR,8.153.66.71/32,no-resolve
+# Pilipili
+DOMAIN-SUFFIX,pilipili.club
