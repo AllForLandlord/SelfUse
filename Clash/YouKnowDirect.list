@@ -11,8 +11,8 @@ DOMAIN-SUFFIX,stream2.misakaf.org
 DOMAIN-SUFFIX,stream3.misakaf.org
 DOMAIN-SUFFIX,stream4.misakaf.org
 
-# 纸片人后端
-DOMAIN-SUFFIX,9521732.xyz
+# 纸片人后端（TW三网直连）
+DOMAIN-SUFFIX,tw.embyplus.org
 
 # Pilipili
 DOMAIN-SUFFIX,pilipili.club
