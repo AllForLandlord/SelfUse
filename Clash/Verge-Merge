@@ -21,6 +21,21 @@ tun:
   mtu: 1500
   enable: true
 
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80]
+    TLS:
+      ports: [443]
+
+  skip-domain:
+    - Mijia Cloud
+    - '+.apple.com'
+
 profile:
   store-selected: true
 
