@@ -29,12 +29,16 @@ sniffer:
   sniff:
     HTTP:
       ports: [80]
+      override-destination: false
     TLS:
       ports: [443]
+      override-destination: false
 
   skip-domain:
     - Mijia Cloud
     - '+.apple.com'
+    - dlg.io.mi.com
+
 
 profile:
   store-selected: true
