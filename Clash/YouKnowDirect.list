@@ -11,8 +11,11 @@ DOMAIN-SUFFIX,stream2.misakaf.org
 DOMAIN-SUFFIX,stream3.misakaf.org
 DOMAIN-SUFFIX,stream4.misakaf.org
 
-# 纸片人-联通直连-混合
+# 纸片人后端-联通直连-混合
 DOMAIN-SUFFIX,emby2.029902.xyz
+
+# 纸片人后端-自选IP
+DOMAIN-SUFFIX,stream.embyplus.org
 
 # Pilipili
 DOMAIN-SUFFIX,pilipili.club
