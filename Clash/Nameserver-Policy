@@ -1,6 +1,7 @@
 # OpenClash
 # BiliBili CDN
   '+.bilivideo.com': '210.22.70.3'
+# QQ & Wechat
   '+.gtimg.cn': '210.22.70.3'
   '+.qq.com': '210.22.70.3'
   '+.tencent.com': '210.22.70.3'
