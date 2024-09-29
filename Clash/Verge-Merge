@@ -54,6 +54,13 @@ dns:
   fallback: []
   nameserver-policy:
     '+.bilivideo.com': 'system'
+    '+.gtimg.cn': 'system'
+    '+.qq.com': 'system'
+    '+.tencent.com': 'system'
+    '+.qlogo.cn': 'system'
+    '+.qpic.cn': 'system'
+    '+.tencent-cloud.net': 'system'
+
   fake-ip-filter:
 # LAN
   - '*.lan'
