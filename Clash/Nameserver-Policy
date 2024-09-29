@@ -1,10 +1,16 @@
 # OpenClash
 # BiliBili CDN
   '+.bilivideo.com': '210.22.70.3'
+  '+.gtimg.cn': '210.22.70.3'
+  '+.qq.com': '210.22.70.3'
+  '+.tencent.com': '210.22.70.3'
+  '+.qlogo.cn': '210.22.70.3'
+  '+.qpic.cn': '210.22.70.3'
+  '+.tencent-cloud.net': '210.22.70.3'
+
+
 
 # 注意，system关键字不一定支持openclash，但一定支持windows/mac/linux设备。
-
-
 # Clash Verge参考另一文件Verge-Merge-DNS
 
 
