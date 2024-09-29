@@ -12,3 +12,10 @@
 # QuantumultX
 # BiliBili CDN
 server = /*.bilivideo.com/system
+# QQ & Wechat
+server = /*.gtimg.cn/system
+server = /*.qq.com/system
+server = /*.tencent.com/system
+server = /*.qlogo.cn/system
+server = /*.qpic.cn/system
+server = /*.tencent-cloud.net/system
