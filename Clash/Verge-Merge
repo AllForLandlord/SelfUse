@@ -33,11 +33,12 @@ sniffer:
     TLS:
       ports: [443]
       override-destination: false
-
   skip-domain:
-    - Mijia Cloud
-    - '+.apple.com'
-    - dlg.io.mi.com
+  - '+.apple.com'
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - '+.oray.com'
+  - '+.sunlogin.net'
 
 
 profile:
