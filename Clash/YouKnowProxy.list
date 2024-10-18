@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,embyplus.org
 
 # MisakaF前端
-DOMAIN-SUFFIX,emby.misakaf.org
+#DOMAIN-SUFFIX,emby.misakaf.org
 
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
