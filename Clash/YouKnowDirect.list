@@ -6,10 +6,10 @@ DOMAIN-SUFFIX,cc.coemn.com
 DOMAIN-SUFFIX,carryz.net
 
 # MisakaF
-DOMAIN-SUFFIX,stream1.misakaf.org
-DOMAIN-SUFFIX,stream2.misakaf.org
-DOMAIN-SUFFIX,stream3.misakaf.org
-DOMAIN-SUFFIX,stream4.misakaf.org
+#DOMAIN-SUFFIX,stream1.misakaf.org
+#DOMAIN-SUFFIX,stream2.misakaf.org
+#DOMAIN-SUFFIX,stream3.misakaf.org
+#DOMAIN-SUFFIX,stream4.misakaf.org
 
 # PiliPili主域名
 DOMAIN-SUFFIX,pilipili.club
