@@ -24,6 +24,9 @@ DOMAIN-SUFFIX,rockstargames.com
 # CN Bing
 DOMAIN-SUFFIX,cn.bing.com
 
+# Nvidia
+DOMAIN-SUFFIX,nvidia.com
+
 
 # OneDrive & Microsoft 365补充
 DOMAIN-SUFFIX,ssw.live.com
