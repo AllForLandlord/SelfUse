@@ -39,6 +39,9 @@ DOMAIN-SUFFIX,fs.microsoft.com
 # CMCC
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,sh.cmcc
+DOMAIN-KEYWORD,cmcc
+DOMAIN-KEYWORD,chinamobile
 IP-CIDR,211.136.166.47/32,no-resolve
 IP-CIDR,211.136.166.55/32,no-resolve
 IP-CIDR,117.132.188.24/32,no-resolve
