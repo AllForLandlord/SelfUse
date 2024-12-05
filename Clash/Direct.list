@@ -17,8 +17,8 @@ DOMAIN-SUFFIX,hitman.io
 DOMAIN-SUFFIX,rockstargames.com
 
 
-# CN Bing
-DOMAIN-SUFFIX,cn.bing.com
+# Bing
+DOMAIN-SUFFIX,bing.com
 
 # Nvidia
 DOMAIN-SUFFIX,nvidia.com
