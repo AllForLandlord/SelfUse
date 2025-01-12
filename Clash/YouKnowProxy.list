@@ -1,4 +1,4 @@
-# 纸片人小站前端+后端
+# 纸片人小站
 DOMAIN-SUFFIX,embyplus.org
 
 # MisakaF前端
@@ -7,6 +7,16 @@ DOMAIN-SUFFIX,embyplus.org
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
 
-# PiliPili主域名
+# PiliPili
 DOMAIN-SUFFIX,pilipili.club
 DOMAIN-SUFFIX,pilipili.misakaf.org
+
+# 终点站
+DOMAIN-SUFFIX,emby.wtf
+
+
+
+#御三家的播放域名：
+#纸片人：stream.embyplus.org:443
+#PiliPili：pilipili.misakaf.org:443
+#卷毛鼠：mini.jmsuper.com:443
