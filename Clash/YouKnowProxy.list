@@ -1,9 +1,6 @@
 # 纸片人小站
 DOMAIN-SUFFIX,embyplus.org
 
-# MisakaF前端
-#DOMAIN-SUFFIX,emby.misakaf.org
-
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
 
@@ -20,3 +17,4 @@ DOMAIN-SUFFIX,emby.wtf
 #纸片人：stream.embyplus.org:443
 #PiliPili：pilipili.misakaf.org:443
 #卷毛鼠：mini.jmsuper.com:443
+#终点站：pub2.emby.wtf:443
