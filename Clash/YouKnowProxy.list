@@ -11,6 +11,9 @@ DOMAIN-SUFFIX,pilipili.misakaf.org
 # 终点站
 DOMAIN-SUFFIX,emby.wtf
 
+# 二次元Emby
+DOMAIN-SUFFIX,nijigem.by
+
 
 
 #御三家的播放域名：
@@ -18,3 +21,4 @@ DOMAIN-SUFFIX,emby.wtf
 #PiliPili：pilipili.misakaf.org:443
 #卷毛鼠：mini.jmsuper.com:443
 #终点站：pub2.emby.wtf:443
+#二次元Emby：media.nijigem.by:443
