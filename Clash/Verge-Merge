@@ -1,10 +1,15 @@
 # Profile Enhancement Merge Template for Clash Verge
 
 tun:
-  stack: system
-  device: Mihomo
-  auto-route: true
   auto-detect-interface: true
+  auto-route: true
+  device: Mihomo
+  dns-hijack:
+  - any:53
+  mtu: 1500
+  stack: system
+  strict-route: false
+  enable: true
   route-exclude-address:
   - 0.0.0.0/8
   - 10.0.0.0/8
@@ -15,11 +20,7 @@ tun:
   - 192.168.0.0/16
   - 224.0.0.0/4
   - 240.0.0.0/4
-  dns-hijack:
-  - any:53
-  strict-route: false
-  mtu: 1500
-  enable: true
+
 
 sniffer:
   enable: true
@@ -45,9 +46,10 @@ profile:
   store-selected: true
 
 dns:
-  use-system-hosts: false
   enable: true
+  ipv6: false
   enhanced-mode: fake-ip
+  fake-ip-range: 172.29.0.1/16
   nameserver:
   - 223.5.5.5
   - 119.29.29.29
