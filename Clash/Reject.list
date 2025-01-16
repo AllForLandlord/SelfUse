@@ -1,2 +1,2 @@
-# 国内外443端口UDP屏蔽
-AND,((DST-PORT,443),(NETWORK,udp))
+# 国内外443端口UDP屏蔽（Surge写法）
+AND,((DEST-PORT,443),(PROTOCOL,udp))
