@@ -1,2 +1,2 @@
-# Telegram荷兰IP（.100和.101）
-#IP-CIDR,95.161.76.100/31,no-resolve
+# 443端口UDP
+AND,((DST-PORT,443),(NETWORK,UDP))
