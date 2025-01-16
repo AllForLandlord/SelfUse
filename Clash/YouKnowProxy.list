@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,emby.wtf
 # 二次元Emby
 DOMAIN-SUFFIX,nijigem.by
 
+# Nyamedia
+DOMAIN-SUFFIX,bangumi.ca
 
 
 #御三家的播放域名：
@@ -22,3 +24,4 @@ DOMAIN-SUFFIX,nijigem.by
 #卷毛鼠：mini.jmsuper.com:443
 #终点站：pub2.emby.wtf:443
 #二次元Emby：media.nijigem.by:443
+#Nyamedia：emby.bangumi.ca:443
