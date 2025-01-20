@@ -4,9 +4,6 @@ DOMAIN-SUFFIX,embyplus.org
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
 
-# PiliPili
-DOMAIN-SUFFIX,pilipili.club
-DOMAIN-SUFFIX,pilipiliultra.com
 
 # 终点站
 DOMAIN-SUFFIX,emby.wtf
@@ -23,7 +20,6 @@ DOMAIN-SUFFIX,emby-mica-us-v1.mius.uk
 
 #御三家的播放域名：
 #纸片人：stream.embyplus.org:443
-#PiliPili：streamer.pilipiliultra.com:443
 #卷毛鼠：mini.jmsuper.com:443
 #终点站：pub2.emby.wtf:443
 #二次元Emby：media.nijigem.by:443
