@@ -15,6 +15,9 @@ DOMAIN-KEYWORD,52pojie
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+
 
 # HITMAN Server
 DOMAIN-SUFFIX,hitman.io
