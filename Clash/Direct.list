@@ -11,6 +11,10 @@ DOMAIN-SUFFIX,dogfight360.com
 # 吾爱破解
 DOMAIN-KEYWORD,52pojie
 
+# 千问
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,tongyi.aliyun.com
+
 
 # HITMAN Server
 DOMAIN-SUFFIX,hitman.io
