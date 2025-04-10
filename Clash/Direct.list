@@ -8,15 +8,22 @@ DOMAIN-SUFFIX,xfani.com
 # dogflight
 DOMAIN-SUFFIX,dogfight360.com
 
+
 # 吾爱破解
 DOMAIN-KEYWORD,52pojie
+
 
 # 千问
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 
+
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
+
+
+# Adguard
+DOMAIN-SUFFIX,local.adguard.org
 
 
 # HITMAN Server
@@ -29,6 +36,7 @@ DOMAIN-SUFFIX,rockstargames.com
 
 # Bing
 DOMAIN-SUFFIX,bing.com
+
 
 # Nvidia
 DOMAIN-SUFFIX,nvidia.com
