@@ -5,21 +5,20 @@ tun:
   auto-route: true
   device: Mihomo
   dns-hijack:
-  - any:53
+    - any:53
   mtu: 1500
   stack: system
   strict-route: false
   enable: true
   route-exclude-address:
-  - 0.0.0.0/8
-  - 10.0.0.0/8
-  - 100.64.0.0/10
-  - 127.0.0.0/8
-  - 169.254.0.0/16
-  - 192.168.0.0/16
-  - 224.0.0.0/4
-  - 240.0.0.0/4
-
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 192.168.0.0/16
+    - 224.0.0.0/4
+    - 240.0.0.0/4
 
 sniffer:
   enable: true
@@ -34,12 +33,11 @@ sniffer:
       ports: [443]
       override-destination: false
   skip-domain:
-  - '+.apple.com'
-  - Mijia Cloud
-  - dlg.io.mi.com
-  - '+.oray.com'
-  - '+.sunlogin.net'
-
+    - "+.apple.com"
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - "+.oray.com"
+    - "+.sunlogin.net"
 
 profile:
   store-selected: true
@@ -50,159 +48,159 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
-  - 223.5.5.5
-  - 119.29.29.29
-  fallback: []
-  nameserver-policy:
-    '+.bilivideo.com': 'system'
-    '+.gtimg.cn': 'system'
-    '+.qq.com': 'system'
-    '+.tencent.com': 'system'
-    '+.qlogo.cn': 'system'
-    '+.qpic.cn': 'system'
-    '+.tencent-cloud.net': 'system'
+    #  - 223.5.5.5
+    #  - 119.29.29.29
+    - system
+  #  nameserver-policy:
+  #    '+.bilivideo.com': 'system'
+  #    '+.gtimg.cn': 'system'
+  #    '+.qq.com': 'system'
+  #    '+.tencent.com': 'system'
+  #    '+.qlogo.cn': 'system'
+  #    '+.qpic.cn': 'system'
+  #    '+.tencent-cloud.net': 'system'
 
   fake-ip-filter:
-# LAN
-  - '*.lan'
-  - '*.localdomain'
-  - '*.example'
-  - '*.invalid'
-  - '*.localhost'
-  - '*.test'
-  - '*.local'
-  - '*.home.arpa'
-# 放行NTP服务
-  - 'time.*.com'
-  - 'time.*.gov'
-  - 'time.*.edu.cn'
-  - 'time.*.apple.com'
-  - time-ios.apple.com
-  - 'time1.*.com'
-  - 'time2.*.com'
-  - 'time3.*.com'
-  - 'time4.*.com'
-  - 'time5.*.com'
-  - 'time6.*.com'
-  - 'time7.*.com'
-  - 'ntp.*.com'
-  - 'ntp1.*.com'
-  - 'ntp2.*.com'
-  - 'ntp3.*.com'
-  - 'ntp4.*.com'
-  - 'ntp5.*.com'
-  - 'ntp6.*.com'
-  - 'ntp7.*.com'
-  - '*.time.edu.cn'
-  - '*.ntp.org.cn'
-  - '+.pool.ntp.org'
-  - time1.cloud.tencent.com
-# 放行网易云音乐
-  - music.163.com
-  - '*.music.163.com'
-  - '*.126.net'
-# 百度音乐
-  - musicapi.taihe.com
-  - music.taihe.com
-# 酷狗音乐
-  - songsearch.kugou.com
-  - trackercdn.kugou.com
-# 酷我音乐
-  - '*.kuwo.cn'
-# JOOX音乐
-  - api-jooxtt.sanook.com
-  - api.joox.com
-  - joox.com
-# QQ音乐
-  - y.qq.com
-  - '*.y.qq.com'
-  - streamoc.music.tc.qq.com
-  - mobileoc.music.tc.qq.com
-  - isure.stream.qqmusic.qq.com
-  - dl.stream.qqmusic.qq.com
-  - aqqmusic.tc.qq.com
-  - amobile.music.tc.qq.com
-# 虾米音乐
-  - '*.xiami.com'
-# 咪咕音乐
-  - '*.music.migu.cn'
-  - music.migu.cn
-# windows本地连接检测
-  - '+.msftconnecttest.com'
-  - '+.msftncsi.com'
-# QQ登录
-  - localhost.ptlogin2.qq.com
-  - localhost.sec.qq.com
-  - '+.qq.com'
-  - '+.tencent.com'
-# Game
-# Nintendo Switch
-  - '+.srv.nintendo.net'
-  - '*.n.n.srv.nintendo.net'
-  - '+.cdn.nintendo.net'
-# Sony PlayStation
-  - '+.stun.playstation.net'
-# Microsoft Xbox
-  - 'xbox.*.*.microsoft.com'
-  - '*.*.xboxlive.com'
-  - 'xbox.*.microsoft.com'
-  - xnotify.xboxlive.com
-# Wotgame
-  - '+.battlenet.com.cn'
-  - '+.wotgame.cn'
-  - '+.wggames.cn'
-  - '+.wowsgame.cn'
-  - '+.wargaming.net'
-# Golang
-  - proxy.golang.org
-# STUN
-  - 'stun.*.*'
-  - 'stun.*.*.*'
-  - '+.stun.*.*'
-  - '+.stun.*.*.*'
-  - '+.stun.*.*.*.*'
-  - '+.stun.*.*.*.*.*'
-# Linksys Router
-  - heartbeat.belkin.com
-  - '*.linksys.com'
-  - '*.linksyssmartwifi.com'
-# ASUS Router
-  - '*.router.asus.com'
-# Apple Software Update Service
-  - mesu.apple.com
-  - swscan.apple.com
-  - swquery.apple.com
-  - swdownload.apple.com
-  - swcdn.apple.com
-  - swdist.apple.com
-# Google
-  - lens.l.google.com
-  - stun.l.google.com
-  - na.b.g-tun.com
-# Netflix
-  - '+.nflxvideo.net'
-# FinalFantasy XIV Worldwide Server & CN Server
-  - '*.square-enix.com'
-  - '*.finalfantasyxiv.com'
-  - '*.ffxiv.com'
-  - '*.ff14.sdo.com'
-  - ff.dorado.sdo.com
-# Bilibili
-  - '*.mcdn.bilivideo.cn'
-# Disney Plus
-  - '+.media.dssott.com'
-# shark007 Codecs 
-  - shark007.net
-# Mijia
-  - Mijia Cloud
-# 招商银行
-  - '+.cmbchina.com'
-  - '+.cmbimg.com'
-# AdGuard
-  - local.adguard.org
-# 迅雷
-  - '+.sandai.net'
-  - '+.n0808.com'
-# UU Plugin
-  - '+.uu.163.com'
-  - ps.res.netease.com
+    # LAN
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    # 放行NTP服务
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - time-ios.apple.com
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - time1.cloud.tencent.com
+    # 放行网易云音乐
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    # 百度音乐
+    - musicapi.taihe.com
+    - music.taihe.com
+    # 酷狗音乐
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    # 酷我音乐
+    - "*.kuwo.cn"
+    # JOOX音乐
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    # QQ音乐
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    # 虾米音乐
+    - "*.xiami.com"
+    # 咪咕音乐
+    - "*.music.migu.cn"
+    - music.migu.cn
+    # windows本地连接检测
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    # QQ登录
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - "+.qq.com"
+    - "+.tencent.com"
+    # Game
+    # Nintendo Switch
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    - "+.cdn.nintendo.net"
+    # Sony PlayStation
+    - "+.stun.playstation.net"
+    # Microsoft Xbox
+    - "xbox.*.*.microsoft.com"
+    - "*.*.xboxlive.com"
+    - "xbox.*.microsoft.com"
+    - xnotify.xboxlive.com
+    # Wotgame
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    # Golang
+    - proxy.golang.org
+    # STUN
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "+.stun.*.*.*.*.*"
+    # Linksys Router
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    # ASUS Router
+    - "*.router.asus.com"
+    # Apple Software Update Service
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    # Google
+    - lens.l.google.com
+    - stun.l.google.com
+    - na.b.g-tun.com
+    # Netflix
+    - "+.nflxvideo.net"
+    # FinalFantasy XIV Worldwide Server & CN Server
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    # Bilibili
+    - "*.mcdn.bilivideo.cn"
+    # Disney Plus
+    - "+.media.dssott.com"
+    # shark007 Codecs
+    - shark007.net
+    # Mijia
+    - Mijia Cloud
+    # 招商银行
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    # AdGuard
+    - local.adguard.org
+    # 迅雷
+    - "+.sandai.net"
+    - "+.n0808.com"
+    # UU Plugin
+    - "+.uu.163.com"
+    - ps.res.netease.com
