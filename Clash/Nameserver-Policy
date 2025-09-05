@@ -1,6 +1,7 @@
 # OpenClash
 # BiliBili CDN
   '+.bilivideo.com': '210.22.70.3'
+  '+.bilibili.com': '210.22.70.3'
 # QQ & Wechat
   '+.gtimg.cn': '210.22.70.3'
   '+.qq.com': '210.22.70.3'
@@ -19,6 +20,7 @@
 # QuantumultX
 # BiliBili CDN
 server = /*.bilivideo.com/system
+server = /*.bilibili.com/system
 # QQ & Wechat
 server = /*.gtimg.cn/system
 server = /*.qq.com/system
