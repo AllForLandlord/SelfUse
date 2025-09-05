@@ -52,10 +52,10 @@ dns:
     - 119.29.29.29
   fallback: []
   nameserver-policy:
-    #BiliBili
+    # BiliBili CDN
     "+.bilivideo.com": "system"
     "+.bilibili.com": "system"
-    #QQ & Wechat
+    # QQ & Wechat
     "+.gtimg.cn": "system"
     "+.qq.com": "system"
     "+.tencent.com": "system"
