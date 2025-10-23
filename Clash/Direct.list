@@ -69,7 +69,7 @@ IP-CIDR,117.132.188.24/32,no-resolve
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localhost
 
-# IP保留地址交给内核排除处理，考虑到污染成保留地址时不能走直连的情况，所以单独不设置直连规则
+# IP保留地址交给内核排除处理，考虑到污染成保留地址时不能走直连的情况，所以不单独设置直连规则
 #IP-CIDR,0.0.0.0/8,no-resolve
 #IP-CIDR,10.0.0.0/8,no-resolve
 #IP-CIDR,100.64.0.0/10,no-resolve
