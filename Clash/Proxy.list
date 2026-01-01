@@ -4,3 +4,6 @@ DOMAIN-SUFFIX,mozilla.org
 
 # OneDrive网页版
 DOMAIN-SUFFIX,onedrive.live.com
+
+# 机场
+DOMAIN-SUFFIX,kache.ink
