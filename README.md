@@ -1,4 +1,4 @@
-This repository is only for my personal use.
+This repository is meant to be personal.
 
 Please ignore these files.
 
