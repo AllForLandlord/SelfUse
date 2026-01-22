@@ -1,5 +1,4 @@
-# Profile Enhancement Merge Template for Clash Verge
-
+# https://mihomo.party/docs/guide/override/yaml
 geodata-mode: false   #false为使用mmdbb
 
 geox-url:
@@ -10,6 +9,11 @@ geox-url:
 geo-auto-update: true
 geo-update-interval: 24   #单位为小时
 
+profile:
+  store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址，防止关闭TUN后应用的fake-ip残留导致的断网
 
 tun:
   auto-detect-interface: true
@@ -51,8 +55,6 @@ sniffer:
     - "+.oray.com"
     - "+.sunlogin.net"
 
-profile:
-  store-selected: true
 
 dns:
   enable: true
