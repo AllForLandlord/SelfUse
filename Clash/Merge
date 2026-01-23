@@ -1,4 +1,8 @@
 # https://mihomo.party/docs/guide/override/yaml
+
++rules:
+  - "AND,((DST-PORT,443),(NETWORK,udp)),REJECT"
+
 geodata-mode: false   #false为使用mmdbb
 
 geox-url:
