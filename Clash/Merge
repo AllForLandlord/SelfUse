@@ -1,4 +1,6 @@
 # https://mihomo.party/docs/guide/override/yaml
+# 配置覆盖优先级：面板>覆写>订阅链接配置
+# 相同的字段里，面板的优先级最高（比如面板TUN设置的route-exclude-address如果留空，会覆盖掉“覆写”同字段的配置）；面板没写的字段，“覆写”会覆盖掉；订阅链接的配置优先级最低，会被覆写覆盖掉。
 
 +rules:
   - "AND,((DST-PORT,443),(NETWORK,udp)),REJECT"
