@@ -26,6 +26,7 @@ tun:
   strict-route: false
   enable: true
   disable-icmp-forwarding: true
+  # 所有ICMP连接（包括能返回正常结果的IP Ping）都使用fake ping echo，返回<1ms
   route-exclude-address:
     - 0.0.0.0/8
     - 10.0.0.0/8
