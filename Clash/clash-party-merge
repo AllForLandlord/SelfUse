@@ -1,17 +1,17 @@
 # https://mihomo.party/docs/guide/override/yaml
 # 配置覆盖优先级：面板>覆写>订阅链接配置
 # 相同的字段里，面板的优先级最高（比如面板TUN设置的route-exclude-address如果留空，会覆盖掉“覆写”同字段的配置）；面板没写的字段，“覆写”会覆盖掉；订阅链接的配置优先级最低，会被覆写覆盖掉。
+# 字段结尾加"!"强制覆盖，优先级依然比面板的覆写低，只会强制覆盖订阅链接的相应字段及子字段
 
 +rules:
   - "AND,((DST-PORT,443),(NETWORK,udp)),REJECT"
 
-geodata-mode: false   #false为使用mmdbb
-
+geodata-mode: false   #false为使用mmdbb，下面的geoip和geosite的配置无效，仅采用Country.mmdb
 geox-url:
-  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb"
-
+  asn: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb"
 geo-auto-update: true
 geo-update-interval: 24   #单位为小时
 
