@@ -1,2 +1,22 @@
 # 国内外443端口UDP屏蔽（Surge写法）
-AND,((DEST-PORT,443),(PROTOCOL,udp))
+;AND,((DEST-PORT,443),(PROTOCOL,udp))
+
+# 轮媒
+DOMAIN-SUFFIX, minghui.org
+DOMAIN-SUFFIX, falundafa.org
+DOMAIN-SUFFIX, theepochtimes.com
+DOMAIN-SUFFIX, ntdtv.com
+DOMAIN-SUFFIX, dongtaiwang.com
+DOMAIN-SUFFIX, epochtimes.com
+DOMAIN-SUFFIX, aboluowang.com
+DOMAIN-SUFFIX, yuanming.net
+DOMAIN-SUFFIX, zhengwunet.org
+DOMAIN-SUFFIX, guangming.org
+DOMAIN-SUFFIX, zhengjian.org
+DOMAIN-SUFFIX, xinsheng.net
+DOMAIN-SUFFIX, fgmtv.org
+DOMAIN-SUFFIX, mhradio.org
+DOMAIN-SUFFIX, renminbao.org
+DOMAIN-SUFFIX, secretchina.com
+DOMAIN-SUFFIX, soundofhope.org
+DOMAIN-SUFFIX, shenzhoufilm.com
