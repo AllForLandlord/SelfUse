@@ -20,6 +20,9 @@ DOMAIN-KEYWORD,52pojie
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 
+# GLM
+DOMAIN-SUFFIX,z.ai
+
 
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
