@@ -16,12 +16,12 @@ DOMAIN-SUFFIX,dogfight360.com
 DOMAIN-KEYWORD,52pojie
 
 
-# 千问
+# 千问国际版
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 
-# GLM
-DOMAIN-SUFFIX,z.ai
+# GLM国际版
+;DOMAIN-SUFFIX,z.ai
 
 
 # DeepSeek
