@@ -1,7 +1,10 @@
 # 国内外443端口UDP屏蔽（Surge写法）
 ;AND,((DEST-PORT,443),(PROTOCOL,udp))
 
-# 轮媒
+# Apple OS Block
+DOMAIN,gdmf.apple.com
+
+# Fifa网站
 DOMAIN-SUFFIX, minghui.org
 DOMAIN-SUFFIX, falundafa.org
 DOMAIN-SUFFIX, theepochtimes.com
