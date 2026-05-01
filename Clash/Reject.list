@@ -1,7 +1,7 @@
 # 国内外443端口UDP屏蔽（Surge写法）
 ;AND,((DEST-PORT,443),(PROTOCOL,udp))
 
-# Apple OS Block
+# AppleOS Update Block
 DOMAIN,gdmf.apple.com
 
 # Fifa网站
