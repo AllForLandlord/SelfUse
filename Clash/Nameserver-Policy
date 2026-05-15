@@ -1,4 +1,12 @@
 # OpenClash
+ #为了把肥羊的规则抵消掉，故多此一举
+  "geosite:cn":
+    - 223.5.5.5
+    - 119.29.29.29
+  "geosite:geolocation-!cn":
+    - 223.5.5.5
+    - 119.29.29.29
+
 # BiliBili CDN
   '+.bilivideo.com': '210.22.70.3'
   '+.bilibili.com': '210.22.70.3'
