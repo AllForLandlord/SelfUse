@@ -74,6 +74,12 @@ dns:
     - 119.29.29.29
   fallback: []
   nameserver-policy:
+    geosite:cn:
+    - 223.5.5.5
+    - 119.29.29.29
+    geosite:geolocation-!cn:
+    - 223.5.5.5
+    - 119.29.29.29
     # BiliBili CDN
     "+.bilivideo.com": "system"
     "+.bilibili.com": "system"
