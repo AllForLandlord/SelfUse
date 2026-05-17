@@ -71,7 +71,8 @@ dns:
   fake-ip-range: 198.18.0.1/16
   nameserver:
     - system
-  #direct-nameserver: '210.22.70.3'
+    #- 223.5.5.5
+    #- 119.29.29.29
 
   fake-ip-filter:
     # LAN
