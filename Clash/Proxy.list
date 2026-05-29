@@ -1,3 +1,5 @@
+# 本list是少部分当前选择的主代理节点无法访问，或者需要专门补充走代理的域名列表
+
 # 火狐
 DOMAIN-SUFFIX,mozilla.org
 
@@ -7,3 +9,6 @@ DOMAIN-SUFFIX,onedrive.live.com
 
 # 机场
 DOMAIN-SUFFIX,efanyun.net
+
+# CatBox
+DOMAIN-SUFFIX,catbox.moe
