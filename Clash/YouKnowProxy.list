@@ -16,8 +16,8 @@ DOMAIN-SUFFIX,nijigem.by
 # Nyamedia
 DOMAIN-SUFFIX,bangumi.ca
 
-# Band
-
+# 结束Band
+DOMAIN-SUFFIX,biliblili.uk
 
 # 推流域名：
 #纸片人：stream.embyplus.org:443
@@ -25,3 +25,4 @@ DOMAIN-SUFFIX,bangumi.ca
 #终点站：pub2.emby.wtf:443
 #二次元Emby：media.nijigem.by:443
 #Nyamedia：emby.bangumi.ca:443
+#结束Band：genshin.biliblili.uk
