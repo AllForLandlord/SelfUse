@@ -1,9 +1,6 @@
 # 纸片人小站
 DOMAIN-SUFFIX,embyplus.org
 
-# PiliPili
-#DOMAIN-SUFFIX,pilipiliultra.com
-
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
 
@@ -25,4 +22,4 @@ DOMAIN-SUFFIX,biliblili.uk
 #终点站：pub2.emby.wtf:443
 #二次元Emby：media.nijigem.by:443
 #Nyamedia：emby.bangumi.ca:443
-#结束Band：genshin.biliblili.uk
+#结束Band：genshin.biliblili.uk:443
