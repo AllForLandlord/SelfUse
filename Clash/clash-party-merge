@@ -4,7 +4,8 @@
 # 字段结尾加"!"强制覆盖，优先级依然比面板的覆写低，只会强制覆盖订阅链接的相应字段及子字段
 
 +rules:
-  - "AND,((DST-PORT,443),(NETWORK,udp)),REJECT"
+  - "AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,cn))),REJECT"
+  - "AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT"
 
 geodata-mode: false   #false为使用mmdbb，下面的geoip和geosite的配置无效，仅采用Country.mmdb
 geox-url:
