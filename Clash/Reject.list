@@ -1,5 +1,6 @@
-# 国内外443端口UDP屏蔽（Surge写法）
-#AND,((DEST-PORT,443),(PROTOCOL,udp))
+# 国外443端口UDP屏蔽
+#AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,cn))),REJECT
+#AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT
 
 # AppleOS Update Block
 DOMAIN,gdmf.apple.com
