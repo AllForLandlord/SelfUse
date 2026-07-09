@@ -64,7 +64,6 @@ sniffer:
     - "+.oray.com"
     - "+.sunlogin.net"
 
-# 注意把肥羊订阅转换的DNS字段要每次更新订阅后删除，不然会有漏进来的字段。
 dns:
   enable: true
   ipv6: false
