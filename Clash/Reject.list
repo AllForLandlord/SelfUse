@@ -5,6 +5,9 @@
 # AppleOS Update Block
 DOMAIN,gdmf.apple.com
 
+# Ads
+DOMAIN-SUFFIX,ads-pixiv.net
+
 # Fifa网站
 DOMAIN-SUFFIX,minghui.org
 DOMAIN-SUFFIX,falundafa.org
