@@ -1,2 +1,6 @@
 # 未被主用节点自带AI分流包进去，故单独分流到新加坡
 DOMAIN-SUFFIX,openai.com
+
+# > Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
