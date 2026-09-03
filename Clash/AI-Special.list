@@ -1,6 +1,11 @@
-# 未被主用节点自带AI分流包进去，故单独分流到新加坡
+# 未被主用节点的AI分流（节点侧）包进去，故单独分流到新加坡节点
+
+# > OpenAI
 DOMAIN-SUFFIX,openai.com
 
 # > Grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+
+# > Perplexity AI
+DOMAIN-SUFFIX,perplexity.ai
