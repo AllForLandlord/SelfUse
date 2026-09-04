@@ -2,10 +2,3 @@
 
 # > OpenAI
 DOMAIN-SUFFIX,openai.com
-
-# > Grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-
-# > Perplexity AI
-DOMAIN-SUFFIX,perplexity.ai
