@@ -1,7 +1,12 @@
-# 封禁了加拿大节点的服
-# 结束Band
-DOMAIN-SUFFIX,biliblili.uk
+# 禁止美国节点的服，使用加拿大节点
+# 纸片人
+DOMAIN-SUFFIX,embyplus.org
 
+# 假日飞行家（原 JMS）
+DOMAIN-SUFFIX,jmsuper.com
+DOMAIN-SUFFIX,mini.cr18.eu.org
 
 # 推流域名
-#结束Band：genshin.biliblili.uk:443
+#纸片人：stream.embyplus.org:443
+#假日飞行家：mini.jmsuper.com:443
+#假日飞行家：mini.cr18.eu.org:443

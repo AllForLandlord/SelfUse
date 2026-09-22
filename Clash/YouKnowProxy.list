@@ -1,10 +1,3 @@
-# 纸片人小站
-DOMAIN-SUFFIX,embyplus.org
-
-# 卷毛鼠
-DOMAIN-SUFFIX,jmsuper.com
-DOMAIN-SUFFIX,mini.cr18.eu.org
-
 # 终点站
 DOMAIN-SUFFIX,emby.wtf
 
@@ -14,10 +7,13 @@ DOMAIN-SUFFIX,nijigem.by
 # Nyamedia
 DOMAIN-SUFFIX,bangumi.ca
 
+# 结束Band
+DOMAIN-SUFFIX,biliblili.uk
+
 
 # 推流域名：
-#纸片人：stream.embyplus.org:443
-#卷毛鼠：mini.jmsuper.com:443
+#假日飞行家：mini.jmsuper.com:443
 #终点站：pub2.emby.wtf:443
 #二次元Emby：media.nijigem.by:443
 #Nyamedia：emby.bangumi.ca:443
+#结束Band：genshin.biliblili.uk:443
