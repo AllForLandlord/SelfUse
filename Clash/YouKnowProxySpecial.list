@@ -1,12 +1,9 @@
 # 禁止美国节点的服，使用加拿大节点
-# 纸片人
-DOMAIN-SUFFIX,embyplus.org
 
-# 假日飞行家（原 JMS）
+# 假日飞行家（原JMS）
 DOMAIN-SUFFIX,jmsuper.com
 DOMAIN-SUFFIX,mini.cr18.eu.org
 
 # 推流域名
-#纸片人：stream.embyplus.org:443
 #假日飞行家：mini.jmsuper.com:443
 #假日飞行家：mini.cr18.eu.org:443
