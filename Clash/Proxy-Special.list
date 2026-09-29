@@ -3,7 +3,6 @@
 # 火狐
 DOMAIN-SUFFIX,mozilla.org
 
-
 # OneDrive网页版
 DOMAIN-SUFFIX,onedrive.live.com
 
@@ -12,3 +11,6 @@ DOMAIN-SUFFIX,efanyun.net
 
 # CatBox
 DOMAIN-SUFFIX,catbox.moe
+
+# GoFile
+DOMAIN-SUFFIX,gofile.io
