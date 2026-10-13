@@ -52,6 +52,9 @@ DOMAIN-SUFFIX,docs.live.net
 # OneDrive Web
 DOMAIN-SUFFIX,fs.microsoft.com
 
+# Doom9论坛（madVR）
+DOMAIN-SUFFIX,doom9.org
+
 
 # 保留地址
 DOMAIN-SUFFIX,local
