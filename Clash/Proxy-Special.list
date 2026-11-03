@@ -15,7 +15,10 @@ DOMAIN-SUFFIX,catbox.moe
 # GoFile
 DOMAIN-SUFFIX,gofile.io
 
-# BT-Tracker中有"DOMAIN-KEYWORD,torrent"，导致部分“BT资源站点”无法连接，故单独设置走代理
+# 萌娘百科
+DOMAIN-SUFFIX,moegirl.org.cn
+
+# BT-Tracker规则中有"DOMAIN-KEYWORD,torrent"，导致部分“BT资源站点”无法连接，故单独设置走代理
 DOMAIN-SUFFIX,extratorrent.st
 DOMAIN-SUFFIX,freejavtorrent.com
 DOMAIN-SUFFIX,torrentbay.st
